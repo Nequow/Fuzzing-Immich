@@ -4,14 +4,7 @@
 
 ### Step 1 - Download the required files
 
-Create a directory of your choice (e.g. `./immich-app`) to hold the `docker-compose.yml` and `.env` files.
-
-```bash title="Move to the directory you created"
-mkdir ./immich-app
-cd ./immich-app
-```
-
-Download [`docker-compose.yml`](https://github.com/immich-app/immich/releases/latest/download/docker-compose.yml) and [`example.env`](https://github.com/immich-app/immich/releases/latest/download/example.env) by running the following commands or by clicking on their names above:
+Download [`docker-compose.yml`](https://github.com/immich-app/immich/releases/latest/download/docker-compose.yml) and [`example.env`](https://github.com/immich-app/immich/releases/latest/download/example.env) by running the following commands or by clicking on their names above (if necessary):
 
 ```bash title="Get docker-compose.yml file"
 wget -O docker-compose.yml https://github.com/immich-app/immich/releases/latest/download/docker-compose.yml
