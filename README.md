@@ -47,6 +47,25 @@ Once you access the app through the browser with the above steps, you have te cr
 BEARER_TOKEN=<access_token>
 ```
 
-## Step 2 - Run the notebook
+## Step 2 - create a virtual environment
+
+```bash title="Create a virtual environment"
+python3 -m venv venv
+```
+
+## Step 3 - Activate the virtual environment
+
+```bash title="Activate the virtual environment"
+source venv/bin/activate
+```
+
+## Step 4 - Install the required packages
+
+```bash title="Install the required packages"
+
+pip install -r requirements.txt
+```
+
+## Step 5 - Run the notebook
 
 Open the `main.ipynb` file in Jupyter Notebook or Jupyter Lab, and run the cells to fuzz the app.
