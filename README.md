@@ -14,7 +14,7 @@ wget -O docker-compose.yml https://github.com/immich-app/immich/releases/latest/
 wget -O .env https://github.com/immich-app/immich/releases/latest/download/example.env
 ```
 
-### Step 2 - Populate the .env file with custom values
+### Step 2 - Populate the example.env file with custom values
 
 - Populate `UPLOAD_LOCATION` with your preferred location for storing backup assets. It should be a new directory on the server with enough free space.
 - Consider changing `DB_PASSWORD` to a custom value. Postgres is not publically exposed, so this password is only used for local authentication.
@@ -55,8 +55,16 @@ python3 -m venv venv
 
 ## Step 3 - Activate the virtual environment
 
+Mac os / Linux:
+
 ```bash title="Activate the virtual environment"
 source venv/bin/activate
+```
+
+Windows:
+
+```bash title="Activate the virtual environment"
+venv\Scripts\activate
 ```
 
 ## Step 4 - Install the required packages
