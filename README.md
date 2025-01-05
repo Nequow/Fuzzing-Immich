@@ -22,6 +22,8 @@ wget -O .env https://github.com/immich-app/immich/releases/latest/download/examp
 - Set your timezone by uncommenting the `TZ=` line.
 - Populate custom database information if necessary.
 
+[Installation steps can be found on this link](https://immich.app/docs/install/docker-compose/)
+
 ### Step 3 - Start the containers
 
 ```bash title="Start the containers using docker compose command"
