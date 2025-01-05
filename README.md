@@ -30,7 +30,7 @@ docker compose up -d
 
 ### Step 4 - Access the app
 
-Navigate to `https://immich-server.immich.orb.local/` or `http://<private-ip-adress>:2283` in your browser to access the app.
+Navigate to `http://<private-ip-adress>:2283` in your browser to access the app. If you are running the app locally, you can access it at `http://localhost:2283`.
 
 # Use the notebook main.ipynb to fuzz the app
 
